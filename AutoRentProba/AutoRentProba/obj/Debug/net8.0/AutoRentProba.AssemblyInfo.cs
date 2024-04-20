@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoRentProba")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2f97448597953aaf11b343c91884a255404cb7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoRentProba")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoRentProba")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

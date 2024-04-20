@@ -7,6 +7,8 @@ namespace CarRent.Data.Entities
         public int Id { get; set; }
         public int UserId { get; set; }
         public int CarId { get; set; }
+
+        public RentalStatus Status { get; set; }
         public DateTime RentStart { get; set; }
         public DateTime RentEnd { get; set; }
     }
