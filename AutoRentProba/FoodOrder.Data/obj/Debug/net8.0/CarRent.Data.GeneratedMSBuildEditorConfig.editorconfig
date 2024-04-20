@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarRent.Data
-build_property.ProjectDir = C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\Teszt_rendszerf\AutoRentProba\Foodorder.Data\
+build_property.ProjectDir = C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\Teszt_rendszerf\AutoRentProba\FoodOrder.Data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
