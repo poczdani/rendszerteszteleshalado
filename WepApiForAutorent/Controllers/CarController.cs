@@ -103,6 +103,37 @@ namespace AutoRent.API.Controllers
             return Ok(_cars);
         }
 
+
+        [HttpPost("reserve")]
+        public ActionResult ReserveCar([FromBody] RentalRequest rentalRequest)
+        {
+            var car = _cars.FirstOrDefault(c => c.CarID == rentalRequest.CarID);
+            if (car == null)
+            {
+                return NotFound($"Nincs ilyen autó azonosítóval: {rentalRequest.CarID}");
+            }
+
+            if (!_rentalService.IsCarAvailableForDate(rentalRequest.CarID.ToString(), rentalRequest.StartDate, rentalRequest.EndDate))
+            {
+                return BadRequest("Az autó ebben az időszakban nem elérhető.");
+            }
+
+            var rentalDays = (rentalRequest.EndDate - rentalRequest.StartDate).Days;
+            var totalCost = rentalDays * car.DailyPrice;
+
+            var rental = new Rentals
+            {
+                UserID = rentalRequest.UserID,
+                CarID = rentalRequest.CarID.ToString(),
+                StartDate = rentalRequest.StartDate,
+                EndDate = rentalRequest.EndDate
+            };
+
+            _rentalService.AddRental(rental);
+
+            return Ok(new { TotalCost = totalCost, Rental = rental });
+        }
+
         [HttpGet]
         public ActionResult<PagedResult<Car>> GetCars(int pageNumber = 1, int pageSize = 10)
         {
@@ -113,7 +144,17 @@ namespace AutoRent.API.Controllers
             return Ok(pagedCars);
         }
 
-        
+        [HttpGet("user/{userId}/rentals")]
+        public ActionResult<IEnumerable<Rentals>> GetUserRentals(string userId)
+        {
+            var userRentals = _rentalService.GetUserRentals(userId);
+            if (userRentals == null || !userRentals.Any())
+            {
+                return NotFound($"Nincs kölcsönzés a felhasználó számára: {userId}");
+            }
+
+            return Ok(userRentals);
+        }
     }
 
 
@@ -126,9 +167,16 @@ namespace AutoRent.API.Controllers
 
     public class RentalAvailability
     {
-        public int CarID { get; set; }
+        public string CarID { get; set; }
         public List<DateTime> AvailableDates { get; set; }
     }
 
+    public class RentalRequest
+    {
+        public int CarID { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public string UserID { get; set; }
+    }
 
 }

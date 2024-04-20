@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\suli\\Rendszerfejlesztés halado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj": {}
+    "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj": {}
   },
   "projects": {
-    "C:\\suli\\Rendszerfejlesztés halado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj": {
+    "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\suli\\Rendszerfejlesztés halado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj",
+        "projectUniqueName": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj",
         "projectName": "AutoRent",
-        "projectPath": "C:\\suli\\Rendszerfejlesztés halado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj",
+        "projectPath": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj",
         "packagesPath": "C:\\Users\\z0048nhu\\.nuget\\packages\\",
-        "outputPath": "C:\\suli\\Rendszerfejlesztés halado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\obj\\",
+        "outputPath": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\z0048nhu\\AppData\\Roaming\\NuGet\\NuGet.Config",

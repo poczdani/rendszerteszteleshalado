@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Net.WebSockets;
+using System.Text;
 
 namespace AutoRent.API
 {
@@ -25,8 +27,39 @@ namespace AutoRent.API
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "AutoRent API", Version = "v1" });
             });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                                      .AllowAnyMethod()
+                                      .AllowAnyHeader());
+            });
         }
 
+
+
+
+        private async Task HandleWebSocketConnection(WebSocket webSocket)
+        {
+            var buffer = new byte[1024 * 4];
+
+            while (webSocket.State == WebSocketState.Open)
+            {
+                var result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
+
+                if (result.MessageType == WebSocketMessageType.Text && result.EndOfMessage)
+                {
+                    var offerFromDatabase = "Új akciós ajánlat: 10% kedvezmény ma!";
+                    var message = Encoding.UTF8.GetBytes(offerFromDatabase);
+                    await webSocket.SendAsync(new ArraySegment<byte>(message, 0, message.Length), result.MessageType, result.EndOfMessage, CancellationToken.None);
+                }
+                else if (result.MessageType == WebSocketMessageType.Close)
+                {
+                    await webSocket.CloseAsync(result.CloseStatus.Value, result.CloseStatusDescription, CancellationToken.None);
+                }
+            }
+        }
 
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -37,7 +70,29 @@ namespace AutoRent.API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AutoRent API v1"));
             }
+            app.UseCors("CorsPolicy"); // CORS middleware hozzáadása
 
+            app.UseWebSockets();
+
+            app.Use(async (context, next) =>
+            {
+                if (context.Request.Path == "/ws")
+                {
+                    if (context.WebSockets.IsWebSocketRequest)
+                    {
+                        var webSocket = await context.WebSockets.AcceptWebSocketAsync();
+                        await HandleWebSocketConnection(webSocket);
+                    }
+                    else
+                    {
+                        context.Response.StatusCode = 400;
+                    }
+                }
+                else
+                {
+                    await next();
+                }
+            });
             app.UseHttpsRedirection();
 
             app.UseRouting();

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\web-socket.html",
+      "PackagePath": "staticwebassets\\web-socket.html"
+    },
+    {
+      "Id": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\web-socket.js",
+      "PackagePath": "staticwebassets\\web-socket.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AutoRent.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AutoRent.props",
+      "PackagePath": "build\\AutoRent.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AutoRent.props",
+      "PackagePath": "buildMultiTargeting\\AutoRent.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AutoRent.props",
+      "PackagePath": "buildTransitive\\AutoRent.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

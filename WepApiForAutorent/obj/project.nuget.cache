@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ShOsYRXNZR0mpr6zcUtevC2IHeHRHK33rK8Ut0r86B4v0euAJwdP+kCZa9QjAsuXfnvgivvnMbw4MrgVxHMvgw==",
+  "dgSpecHash": "9HwBGmwjSv4HwnQ2JxfgeiD2uMhJ7vIW+NdV1o3ks5dVEy5Qzfy5AZd0/DC1g4GTTtSF5MrhJnNqFASwXkmxSw==",
   "success": true,
-  "projectFilePath": "C:\\suli\\Rendszerfejlesztés halado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj",
+  "projectFilePath": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

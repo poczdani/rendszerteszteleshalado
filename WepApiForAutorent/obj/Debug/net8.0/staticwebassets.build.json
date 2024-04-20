@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "dpXKTdMRc+88fdUlPocU3icrL8AAsjH4UY0d1Lgrw/4=",
+  "Hash": "YxDLvEcHfMWCS7GDAN90nyFjDNhEeOAV2armJ0+5ZRs=",
   "Source": "AutoRent",
   "BasePath": "_content/AutoRent",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "AutoRent\\wwwroot",
+      "Source": "AutoRent",
+      "ContentRoot": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\",
+      "BasePath": "_content/AutoRent",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\web-socket.html",
+      "SourceId": "AutoRent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\",
+      "BasePath": "_content/AutoRent",
+      "RelativePath": "web-socket.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web-socket.html"
+    },
+    {
+      "Identity": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\web-socket.js",
+      "SourceId": "AutoRent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\",
+      "BasePath": "_content/AutoRent",
+      "RelativePath": "web-socket.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web-socket.js"
+    }
+  ]
 }

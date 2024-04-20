@@ -30,3 +30,39 @@ C:\suli\Rendszerfejlesztés halado\Autorent\WepApiForAutorent\WepApiForAutorent\
 C:\suli\Rendszerfejlesztés halado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.pdb
 C:\suli\Rendszerfejlesztés halado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.genruntimeconfig.cache
 C:\suli\Rendszerfejlesztés halado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\ref\AutoRent.dll
+C:\suli\Rendszerfejlesztés halado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.sourcelink.json
+C:\suli\Rendszerfejlesztés halado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\AutoRent.staticwebassets.runtime.json
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\appsettings.Development.json
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\appsettings.json
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\AutoRent.staticwebassets.runtime.json
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\AutoRent.exe
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\AutoRent.deps.json
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\AutoRent.runtimeconfig.json
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\AutoRent.dll
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\AutoRent.pdb
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.csproj.AssemblyReference.cache
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.GeneratedMSBuildEditorConfig.editorconfig
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.AssemblyInfoInputs.cache
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.AssemblyInfo.cs
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.csproj.CoreCompileInputs.cache
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.MvcApplicationPartsAssemblyInfo.cs
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.MvcApplicationPartsAssemblyInfo.cache
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.sourcelink.json
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\staticwebassets.build.json
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\staticwebassets.development.json
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\staticwebassets\msbuild.AutoRent.Microsoft.AspNetCore.StaticWebAssets.props
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\staticwebassets\msbuild.build.AutoRent.props
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AutoRent.props
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AutoRent.props
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\staticwebassets.pack.json
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\scopedcss\bundle\AutoRent.styles.css
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.csproj.Up2Date
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.dll
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\refint\AutoRent.dll
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.pdb
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\AutoRent.genruntimeconfig.cache
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\obj\Debug\net8.0\ref\AutoRent.dll

@@ -9,8 +9,9 @@ namespace AutoRent.API.Services
     public class RentalService
     {
         private readonly List<Rentals> _rentals = new List<Rentals>();
+        private int _nextRentalId = 1;
 
-        public bool IsCarAvailable(string carId, DateTime startDate, DateTime endDate)
+        public bool IsCarAvailableForDate(string carId, DateTime startDate, DateTime endDate)
         {
             // Ellenőrizzük, hogy van-e már foglalás az adott időintervallumban
             return !_rentals.Any(r => r.CarID == carId && (
@@ -28,7 +29,20 @@ namespace AutoRent.API.Services
 
         public void AddRental(Rentals rental)
         {
+            rental.RentalID = _nextRentalId++;
             _rentals.Add(rental);
         }
+        public int GetNextRentalId()
+        {
+            return _nextRentalId;
+        }
+
+        public List<Rentals> GetUserRentals(string userId)
+        {
+            return _rentals.Where(r => r.UserID == userId).ToList();
+        }
+
+
+
     }
 }
