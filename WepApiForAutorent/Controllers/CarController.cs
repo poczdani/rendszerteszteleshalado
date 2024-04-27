@@ -6,6 +6,7 @@ using System.Linq;
 using AutorentApi.Models;
 using AutoRent.API.Services;
 using WepApiForAutorent.Models;
+using Microsoft.Data.SqlClient;
 
 namespace AutoRent.API.Controllers
 {
@@ -25,9 +26,12 @@ namespace AutoRent.API.Controllers
 
         private readonly AuthService _authService;
         private readonly RentalService _rentalService;
+        private readonly AutoRentDbContext _dbContext;
 
-        public CarController(AuthService authService, RentalService rentalService)
+
+        public CarController(AutoRentDbContext dbContext, AuthService authService, RentalService rentalService)
         {
+            _dbContext = dbContext;
             _authService = authService;
             _rentalService = rentalService;
         }
@@ -44,11 +48,11 @@ namespace AutoRent.API.Controllers
         {
             if (_authService.Authenticate(request.Username, request.Password))
             {
-                return Ok("Sikeres belépés!");
+                return Ok(new { Message = "Sikeres belépés!" });
             }
             else
             {
-                return Unauthorized("Hibás felhasználónév vagy jelszó.");
+                return Unauthorized(new { Error = "Hibás felhasználónév vagy jelszó." });
             }
         }
 
@@ -97,10 +101,19 @@ namespace AutoRent.API.Controllers
             return Ok("Autó sikeresen bérelve!");
         }
 
+        //// GET: api/Car
+        //[HttpGet("list")]
+        //public async Task<ActionResult<IEnumerable<Car>>> GetCars()
+        //{
+        //    return  _dbContext.Cars.ToList();
+        //}
+
+
         [HttpGet("list")]
         public ActionResult<IEnumerable<Car>> ListCars()
         {
-            return Ok(_cars);
+            var cars = _dbContext.Cars.ToList();
+            return Ok(cars);
         }
 
 
@@ -131,7 +144,17 @@ namespace AutoRent.API.Controllers
 
             _rentalService.AddRental(rental);
 
-            return Ok(new { TotalCost = totalCost, Rental = rental });
+            // Válasz JSON formátumban
+            var responseJson = new
+            {
+                Message = "Sikeres foglalás történt",
+                TotalCost = totalCost,
+                Rental = rental,
+                StartDate = rentalRequest.StartDate,
+                EndDate = rentalRequest.EndDate
+            };
+
+            return Ok(responseJson);
         }
 
         [HttpGet]
@@ -143,6 +166,16 @@ namespace AutoRent.API.Controllers
             var pagedCars = PagedResult.Create(cars, totalItems, pageNumber, pageSize);
             return Ok(pagedCars);
         }
+
+
+        //[HttpGet]
+        //public ActionResult<IEnumerable<Car>> GetCars()
+        //{
+        //    var cars = _dbContext.Cars.ToList();
+        //    return Ok(cars);
+        //}
+
+
 
         [HttpGet("user/{userId}/rentals")]
         public ActionResult<IEnumerable<Rentals>> GetUserRentals(string userId)

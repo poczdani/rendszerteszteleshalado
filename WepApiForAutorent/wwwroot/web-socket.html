@@ -3,14 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebSocket Client</title>
+    <title>AutoRent - Kliensoldal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
-    <h1>Akciós ajánlatok</h1>
+    <h1>AutoRent - Kliensoldal</h1>
 
+    <h2>Bejelentkezés</h2>
+    <form id="loginForm">
+        <label for="username">Felhasználónév:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Jelszó:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="button" onclick="login()">Bejelentkezés</button>
+    </form>
+    <hr>
+
+    <h2>Autók listázása</h2>
+    <button type="button" onclick="listCars()">Autók listázása</button>
+    <div id="carList"></div>
+
+    <hr>
+
+    <h2>Akciós ajánlat</h2>
     <div id="offer-container">
         <!-- Akciós ajánlatok megjelenítése -->
     </div>
+
+
+    <!-- Felhasználó kölcsönzései -->
+    <h2>Felhasználó kölcsönzései</h2>
+    <label for="userId">Felhasználó azonosító:</label>
+    <input type="text" id="userId" name="userId" required><br><br>
+    <button type="button" onclick="getUserRentals(document.getElementById('userId').value)">Kölcsönzések listázása</button>
+    <div id="userRentals"></div>
+
+    <!-- Autó elérhetőségének ellenőrzése -->
+    <h2>Autó elérhetőségének ellenőrzése</h2>
+    <label for="carId">Autó azonosító:</label>
+    <input type="number" id="carId" name="carId" required><br><br>
+    <label for="startDate">Kezdő dátum:</label>
+    <input type="date" id="startDate" name="startDate" required><br><br>
+    <label for="endDate">Vég dátum:</label>
+    <input type="date" id="endDate" name="endDate" required><br><br>
+    <button type="button" onclick="checkCarAvailability()">Ellenőrzés</button>
+    <div id="carAvailability"></div>
+
+    <!-- Autó foglalás -->
+    <h2>Autó foglalása</h2>
+    <label for="carId">Autó azonosító:</label>
+    <input type="number" id="resCarId" name="resCarId" required><br><br>
+    <label for="startDate">Kezdő dátum:</label>
+    <input type="date" id="resStartDate" name="resStartDate" required><br><br>
+    <label for="endDate">Vég dátum:</label>
+    <input type="date" id="resEndDate" name="resEndDate" required><br><br>
+    <label for="userId">Felhasználó azonosító:</label>
+    <input type="text" id="ResUserId" name="ResUserId" required><br><br>
+    <button type="button" onclick="reserveCar()">Autó foglalása</button>
+    <div id="reservationResult" name ="reservationResult"></div>
+
+
+
 
     <script src="web-socket.js"></script>
 </body>
