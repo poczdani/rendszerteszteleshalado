@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eEbid7So/YS/FA/0CB9Nr/sfy3i1AslbaSNp3DOfJvXbs/5Qivdvv/gLWrbuzfSR5Xo622vX4WubHNBszjpqNw==",
+  "dgSpecHash": "RxnU6n3Tu1gJs22pK/tCN8OpUNEILg4eOBurkdbCCE9hdq/OvlNn4x7Db+jL9m0HjjHo/IbZZX7EfevhKtcv3Q==",
   "success": true,
   "projectFilePath": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.4\\microsoft.entityframeworkcore.sqlite.8.0.4.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.4\\microsoft.entityframeworkcore.sqlite.core.8.0.4.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.4\\microsoft.entityframeworkcore.sqlserver.8.0.4.nupkg.sha512",
+    "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.4\\microsoft.entityframeworkcore.tools.8.0.4.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
@@ -53,6 +54,7 @@
     "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\z0048nhu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

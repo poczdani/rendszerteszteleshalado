@@ -40,7 +40,7 @@ function listCars() {
 
             cars.forEach(car => {
                 const carItem = document.createElement('div');
-                carItem.textContent = `${car.brand} ${car.model}`; // Módosítás: brand és model használata
+                carItem.textContent = `${car.Brand} ${car.Model}`; // Módosítás: Brand és Model használata
                 carList.appendChild(carItem);
             });
         })

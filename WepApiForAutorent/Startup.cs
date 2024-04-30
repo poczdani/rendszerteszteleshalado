@@ -26,14 +26,13 @@ namespace AutoRent.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //Entity Framework DbContext hozzáadása
 
             services.AddDbContext<AutoRentDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddScoped<AuthService>(); //Scoped élettartam 
+            services.AddSingleton<RentalService>(); //  singleton élettartam
 
-            services.AddSingleton<AuthService>();
-            services.AddSingleton<RentalService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "AutoRent API", Version = "v1" });

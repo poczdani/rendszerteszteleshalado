@@ -7,6 +7,8 @@ using AutorentApi.Models;
 using AutoRent.API.Services;
 using WepApiForAutorent.Models;
 using Microsoft.Data.SqlClient;
+using Newtonsoft.Json;
+
 
 namespace AutoRent.API.Controllers
 {
@@ -110,10 +112,12 @@ namespace AutoRent.API.Controllers
 
 
         [HttpGet("list")]
-        public ActionResult<IEnumerable<Car>> ListCars()
+        public IActionResult ListCars()
         {
-            var cars = _dbContext.Cars.ToList();
-            return Ok(cars);
+            var cars = _dbContext.Cars?.ToList();
+            var jsonResult = JsonConvert.SerializeObject(cars);
+
+            return Content(jsonResult, "application/json");
         }
 
 

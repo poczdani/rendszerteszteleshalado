@@ -210,3 +210,4 @@ C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bi
 C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\runtimes\win-x86\native\SQLite.Interop.dll
 C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\suli\RendszerfejlesztesHalado\Autorent\WepApiForAutorent\WepApiForAutorent\bin\Debug\net8.0\Newtonsoft.Json.dll

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using WepApiForAutorent.Models;
 
 namespace AutoRent
@@ -20,7 +21,7 @@ namespace AutoRent
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(local)\mssqllocaldb;Database=AutoDB;Integrated Security=True");
+            optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\z0048nhu\\AutoDB.mdf;Integrated Security=True;");
         }
 
 
@@ -31,4 +32,5 @@ namespace AutoRent
                 .HasKey(r => r.RentalID);
         }
     }
-}
+
+    }
