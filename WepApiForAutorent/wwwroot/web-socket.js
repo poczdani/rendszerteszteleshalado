@@ -140,24 +140,21 @@ function displayCarAvailability(availability) {
 
 
 function reserveCar() {
+    const rentalId = document.getElementById('rentalId').value;
     const carId = document.getElementById('resCarId').value;
-    const startDate = document.getElementById('resStartDate').value;
-    const endDate = document.getElementById('resEndDate').value;
+    const startDate = formatDateForServer(document.getElementById('resStartDate').value);
+    const endDate = formatDateForServer(document.getElementById('resEndDate').value);
     const userId = document.getElementById('ResUserId').value;
+    const createdAt = new Date().toISOString();
 
     const reservationData = {
-        carID: parseInt(carId),
+        rentalID: rentalId,
+        carID: carId,
         startDate: startDate,
         endDate: endDate,
-        userID: userId
+        userID: userId,
+        createdAt: createdAt
     };
-
-    //console.log(carId);
-    //console.log(startDate);
-    //console.log(endDate);
-    //console.log(userId);
-    //console.log(reservationData);
-
 
     fetch('https://localhost:7090/api/Car/reserve', {
         method: 'POST',
@@ -176,7 +173,6 @@ function reserveCar() {
             if (data && data.message) {
                 console.log(data);
                 console.log(data.message);
-                // Sikeres foglalás esetén megjelenítheted az üzenetet vagy az eredményt
                 displayReservationResultFromServer(data.message);
             } else {
                 throw new Error('Érvénytelen válasz formátum.');
@@ -186,6 +182,12 @@ function reserveCar() {
             console.error('Hiba:', error);
             alert('Hiba történt az autó foglalása során.');
         });
+}
+
+// Függvény a dátum formázására a szerver által elvárt formátumba
+function formatDateForServer(dateString) {
+    const date = new Date(dateString);
+    return date.toISOString();
 }
 
 
@@ -205,7 +207,22 @@ function displayReservationResultFromServer(message) {
 
 
 
-
+function getRentalsByUsername(username) {
+    fetch(`${BASE_URL}/rentals?username=${username}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Hiba történt a kéréskor.');
+            }
+            return response.json();
+        })
+        .then(data => {
+            displayRentals(data);
+        })
+        .catch(error => {
+            console.error('Hiba:', error);
+            alert('Hiba történt a felhasználó foglalásainak lekérése során.');
+        });
+}
 
 
 

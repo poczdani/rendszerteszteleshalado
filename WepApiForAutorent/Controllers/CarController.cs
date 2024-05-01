@@ -89,26 +89,7 @@ namespace AutoRent.API.Controllers
             return Ok(rentalAvailability);
         }
 
-        [HttpPost("rent")]
-        public ActionResult RentCar([FromBody] Rentals rental)
-        {
-            if (!int.TryParse(rental.CarID, out int carId) ||
-                !_rentalService.IsCarAvailableForDate(carId, rental.StartDate) ||
-                !_rentalService.IsCarAvailableForDate(carId, rental.EndDate))
-            {
-                return BadRequest("Az autó ebben az időszakban nem elérhető vagy az autó azonosítója nem megfelelő.");
-            }
 
-            _rentalService.AddRental(rental);
-            return Ok("Autó sikeresen bérelve!");
-        }
-
-        //// GET: api/Car
-        //[HttpGet("list")]
-        //public async Task<ActionResult<IEnumerable<Car>>> GetCars()
-        //{
-        //    return  _dbContext.Cars.ToList();
-        //}
 
 
         [HttpGet("list")]
@@ -124,7 +105,7 @@ namespace AutoRent.API.Controllers
         [HttpPost("reserve")]
         public ActionResult ReserveCar([FromBody] RentalRequest rentalRequest)
         {
-            var car = _cars.FirstOrDefault(c => c.CarID == rentalRequest.CarID);
+            var car = _cars.FirstOrDefault(c => c.CarID.ToString() == rentalRequest.CarID);
             if (car == null)
             {
                 return NotFound($"Nincs ilyen autó azonosítóval: {rentalRequest.CarID}");
@@ -140,22 +121,28 @@ namespace AutoRent.API.Controllers
 
             var rental = new Rentals
             {
+                RentalID = rentalRequest.RentalID,
                 UserID = rentalRequest.UserID,
                 CarID = rentalRequest.CarID.ToString(),
                 StartDate = rentalRequest.StartDate,
-                EndDate = rentalRequest.EndDate
+                EndDate = rentalRequest.EndDate,
+                CreatedAt = rentalRequest.CreatedAt
             };
 
-            _rentalService.AddRental(rental);
+            // Foglalás hozzáadása az adatbázishoz
+            _dbContext.Rentals.Add(rental);
+            _dbContext.SaveChanges(); // Véglegesítés az adatbázisban
 
             // Válasz JSON formátumban
             var responseJson = new
             {
                 Message = "Sikeres foglalás történt",
-                TotalCost = totalCost,
-                Rental = rental,
+                RentalID = rentalRequest.RentalID,
+                UserID = rentalRequest.UserID,
+                CarID = rentalRequest.CarID.ToString(),
                 StartDate = rentalRequest.StartDate,
-                EndDate = rentalRequest.EndDate
+                EndDate = rentalRequest.EndDate,
+                CreatedAt = rentalRequest.CreatedAt
             };
 
             return Ok(responseJson);
@@ -181,39 +168,51 @@ namespace AutoRent.API.Controllers
 
 
 
-        [HttpGet("user/{userId}/rentals")]
-        public ActionResult<IEnumerable<Rentals>> GetUserRentals(string userId)
+        [HttpGet("rentals")]
+        public ActionResult<IEnumerable<Rentals>> GetRentalsByUsername(string username)
         {
-            var userRentals = _rentalService.GetUserRentals(userId);
-            if (userRentals == null || !userRentals.Any())
+            var users = _dbContext.Users.ToList();
+            var rentals = _dbContext.Rentals.ToList();
+            List<Rentals> result = null;
+            foreach (var rent in rentals)
             {
-                return NotFound($"Nincs kölcsönzés a felhasználó számára: {userId}");
+                foreach (var user in users)
+                {
+                    if (user.UserID.ToString() == rent.UserID)
+                    {
+                        result = new List<Rentals>();
+                        result.Add(rent);
+                    }
+                }
+           
+
             }
 
-            return Ok(userRentals);
+            if (result == null)
+            {
+                return NotFound($"Nincsenek foglalások a következő felhasználóhoz: {username}");
+            }
+
+            return Ok(result);
+        }
+
+
+
+
+        public class UserLoginRequest
+        {
+            public string Username { get; set; }
+            public string Password { get; set; }
+        }
+
+        public class RentalRequest
+        {
+            public int RentalID { get; set; }
+            public string UserID { get; set; }
+            public string CarID { get; set; }
+            public DateTime StartDate { get; set; }
+            public DateTime EndDate { get; set; }
+            public DateTime CreatedAt { get; set; }
         }
     }
-
-
-
-    public class UserLoginRequest
-    {
-        public string Username { get; set; }
-        public string Password { get; set; }
-    }
-
-    public class RentalAvailability
-    {
-        public string CarID { get; set; }
-        public List<DateTime> AvailableDates { get; set; }
-    }
-
-    public class RentalRequest
-    {
-        public int CarID { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public string UserID { get; set; }
-    }
-
 }

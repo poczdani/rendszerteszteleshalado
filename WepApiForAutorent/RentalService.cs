@@ -29,8 +29,8 @@ namespace AutoRent.API.Services
 
         public void AddRental(Rentals rental)
         {
-            rental.RentalID = _nextRentalId++;
-            _rentals.Add(rental);
+            rental.RentalID = _nextRentalId++; // Az új foglalás azonosítója
+            _rentals.Add(rental); // Hozzáadás a foglalások listájához
         }
         public int GetNextRentalId()
         {

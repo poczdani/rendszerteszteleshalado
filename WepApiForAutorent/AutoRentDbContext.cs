@@ -26,11 +26,11 @@ namespace AutoRent
 
 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Rentals>()
-                .HasKey(r => r.RentalID);
-        }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Rentals>()
+        //        .HasKey(r => r.RentalID);
+        //}
     }
 
     }
