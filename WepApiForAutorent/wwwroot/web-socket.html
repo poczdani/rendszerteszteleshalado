@@ -88,13 +88,18 @@
     </div>
 
 
-    
+
+
+
+
     <!-- Felhasználó foglalásainak lekérése -->
     <h2>Felhasználó foglalásainak lekérése</h2>
     <label for="username">Felhasználónév:</label>
-    <input type="text" id="username" name="username" required><br><br>
-    <button type="button" onclick="getRentalsByUsername(document.getElementById('username').value)">Foglalások lekérése</button>
+    <input type="text" id="usernameInput" name="username" required><br><br>
+    <button type="button" onclick="getRentalsByUsername()">Foglalások lekérése</button>
     <div id="userRentals"></div>
+
+
 
     <!-- Autó elérhetőségének ellenőrzése -->
     <h2>Autó elérhetőségének ellenőrzése</h2>

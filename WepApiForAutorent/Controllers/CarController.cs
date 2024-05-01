@@ -159,13 +159,6 @@ namespace AutoRent.API.Controllers
         }
 
 
-        //[HttpGet]
-        //public ActionResult<IEnumerable<Car>> GetCars()
-        //{
-        //    var cars = _dbContext.Cars.ToList();
-        //    return Ok(cars);
-        //}
-
 
 
         [HttpGet("rentals")]
@@ -184,8 +177,6 @@ namespace AutoRent.API.Controllers
                         result.Add(rent);
                     }
                 }
-           
-
             }
 
             if (result == null)
