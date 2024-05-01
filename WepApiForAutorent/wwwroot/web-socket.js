@@ -111,7 +111,7 @@ function checkCarAvailability() {
             return response.json();
         })
         .then(data => {
-            displayCarAvailability(data);
+            displayCarAvailability(data, startDate, endDate); // Az új paraméterek átadása
         })
         .catch(error => {
             console.error('Hiba:', error);
@@ -119,24 +119,36 @@ function checkCarAvailability() {
         });
 }
 
-function displayCarAvailability(availability) {
+function displayCarAvailability(availability, startDate, endDate) {
     const carAvailabilityContainer = document.getElementById('carAvailability');
 
     if (carAvailabilityContainer) {
         carAvailabilityContainer.innerHTML = '';
 
-        const availabilityList = document.createElement('ul');
+        if (availability.availableDates.length > 0) {
+            // Ellenőrzés, hogy az autó elérhető-e az adott időszakban
+            const isAvailable = availability.availableDates.some(date => date >= startDate && date <= endDate);
 
-        availability.availableDates.forEach(date => {
-            const dateItem = document.createElement('li');
-            dateItem.textContent = date;
-            availabilityList.appendChild(dateItem);
-        });
-
-        carAvailabilityContainer.appendChild(availabilityList);
+            if (isAvailable) {
+                const availabilityList = document.createElement('ul');
+                availability.availableDates.forEach(date => {
+                    const dateItem = document.createElement('li');
+                    dateItem.textContent = date;
+                    availabilityList.appendChild(dateItem);
+                });
+                carAvailabilityContainer.appendChild(availabilityList);
+            } else {
+                const notAvailableMessage = document.createElement('div');
+                notAvailableMessage.textContent = `Az autó nem elérhető ${startDate} és ${endDate} között.`;
+                carAvailabilityContainer.appendChild(notAvailableMessage);
+            }
+        } else {
+            const notAvailableMessage = document.createElement('div');
+            notAvailableMessage.textContent = `Az autó nem elérhető ${startDate} és ${endDate} között.`;
+            carAvailabilityContainer.appendChild(notAvailableMessage);
+        }
     }
 }
-
 
 
 function reserveCar() {
