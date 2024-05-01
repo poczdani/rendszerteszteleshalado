@@ -10,6 +10,7 @@ public class AuthService
         _dbContext = dbContext;
     }
 
+
     public bool Authenticate(string username, string password)
     {
         // Felhasználók kikeresése az adatbázisból
