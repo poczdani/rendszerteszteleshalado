@@ -61,7 +61,7 @@ namespace AutoRent.API.Controllers
         [HttpGet("{carId}/availability")]
         public ActionResult<RentalAvailability> GetRentalAvailability(int carId)
         {
-            var car = _cars.FirstOrDefault(c => c.CarID == carId);
+            var car = _dbContext.Cars.FirstOrDefault(c => c.CarID == carId);
             if (car == null)
             {
                 return NotFound($"Nincs ilyen autó azonosítóval: {carId}");
@@ -71,9 +71,27 @@ namespace AutoRent.API.Controllers
             var currentDate = DateTime.Today;
             var maxDate = DateTime.Today.AddDays(30);
 
+            var rentalsForCar = new List<Rentals>();
+            foreach (var rental in _dbContext.Rentals)
+            {
+                if (rental.CarID == carId.ToString())
+                {
+                    rentalsForCar.Add(rental);
+                }
+            }
+
             while (currentDate <= maxDate)
             {
-                if (_rentalService.IsCarAvailableForDate(carId, currentDate))
+                var isAvailable = true;
+                foreach (var rental in rentalsForCar)
+                {
+                    if (currentDate >= rental.StartDate && currentDate <= rental.EndDate)
+                    {
+                        isAvailable = false;
+                        break;
+                    }
+                }
+                if (isAvailable)
                 {
                     availableDates.Add(currentDate);
                 }
