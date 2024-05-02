@@ -228,7 +228,8 @@ function getRentalsByUsername(username) {
             return response.json();
         })
         .then(data => {
-            displayRentals(data);
+            
+            displayUserRentals(data);
         })
         .catch(error => {
             console.error('Hiba:', error);
@@ -237,29 +238,6 @@ function getRentalsByUsername(username) {
 }
 
 
-function displayRentals(rentals) {
-    const userRentalsContainer = document.getElementById('userRentals');
-
-    if (userRentalsContainer) {
-        userRentalsContainer.innerHTML = '';
-
-        if (rentals.length === 0) {
-            const noRentalsMessage = document.createElement('div');
-            noRentalsMessage.textContent = 'Nincsenek foglalások a felhasználóhoz.';
-            userRentalsContainer.appendChild(noRentalsMessage);
-        } else {
-            const rentalsList = document.createElement('ul');
-
-            rentals.forEach(rental => {
-                const rentalItem = document.createElement('li');
-                rentalItem.textContent = `Autó azonosító: ${rental.carID}, Kezdés: ${rental.startDate}, Vége: ${rental.endDate}`;
-                rentalsList.appendChild(rentalItem);
-            });
-
-            userRentalsContainer.appendChild(rentalsList);
-        }
-    }
-}
 
 function displayUserRentals(rentals) {
     const userRentalsContainer = document.getElementById('userRentals');
