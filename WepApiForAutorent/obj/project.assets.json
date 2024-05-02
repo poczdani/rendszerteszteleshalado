@@ -5541,11 +5541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj",
+      "projectUniqueName": "C:\\suli\\gitaktual\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj",
       "projectName": "AutoRent",
-      "projectPath": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj",
+      "projectPath": "C:\\suli\\gitaktual\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj",
       "packagesPath": "C:\\Users\\z0048nhu\\.nuget\\packages\\",
-      "outputPath": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\obj\\",
+      "outputPath": "C:\\suli\\gitaktual\\rendszerteszteleshalado\\WepApiForAutorent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\z0048nhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
