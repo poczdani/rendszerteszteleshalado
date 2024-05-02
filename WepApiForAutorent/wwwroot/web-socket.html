@@ -96,7 +96,7 @@
     <h2>Felhasználó foglalásainak lekérése</h2>
     <label for="username">Felhasználónév:</label>
     <input type="text" id="usernameInput" name="username" required><br><br>
-    <button type="button" onclick="getRentalsByUsername()">Foglalások lekérése</button>
+    <button type="button" onclick="getRentalsByUsername(document.getElementById('usernameInput').value)">Foglalások lekérése</button>
     <div id="userRentals"></div>
 
 

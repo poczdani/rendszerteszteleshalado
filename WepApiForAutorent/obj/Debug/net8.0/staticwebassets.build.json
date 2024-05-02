@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YxDLvEcHfMWCS7GDAN90nyFjDNhEeOAV2armJ0+5ZRs=",
+  "Hash": "484L/ZUyzHUD/D8mEFwbUVsaExeJ//2aSNvFe/KR1/E=",
   "Source": "AutoRent",
   "BasePath": "_content/AutoRent",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AutoRent\\wwwroot",
       "Source": "AutoRent",
-      "ContentRoot": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\",
+      "ContentRoot": "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\",
       "BasePath": "_content/AutoRent",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\web-socket.html",
+      "Identity": "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\web-socket.html",
       "SourceId": "AutoRent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\",
+      "ContentRoot": "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\",
       "BasePath": "_content/AutoRent",
       "RelativePath": "web-socket.html",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\web-socket.html"
     },
     {
-      "Identity": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\web-socket.js",
+      "Identity": "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\web-socket.js",
       "SourceId": "AutoRent",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\wwwroot\\",
+      "ContentRoot": "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\",
       "BasePath": "_content/AutoRent",
       "RelativePath": "web-socket.js",
       "AssetKind": "All",

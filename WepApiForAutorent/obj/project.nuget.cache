@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RxnU6n3Tu1gJs22pK/tCN8OpUNEILg4eOBurkdbCCE9hdq/OvlNn4x7Db+jL9m0HjjHo/IbZZX7EfevhKtcv3Q==",
+  "dgSpecHash": "etyfYyOA5WAXSp1MaYiTbdavlnK86YjkoW81NCZM4A5gXg9y5s4QQy5k1eUj8DRcrt/eG5uqeGlu2/dL06AyIQ==",
   "success": true,
-  "projectFilePath": "C:\\suli\\RendszerfejlesztesHalado\\Autorent\\WepApiForAutorent\\WepApiForAutorent\\AutoRent.csproj",
+  "projectFilePath": "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\z0048nhu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\z0048nhu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

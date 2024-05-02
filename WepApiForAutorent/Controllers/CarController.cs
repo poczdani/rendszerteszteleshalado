@@ -184,15 +184,18 @@ namespace AutoRent.API.Controllers
         {
             var users = _dbContext.Users.ToList();
             var rentals = _dbContext.Rentals.ToList();
-            List<Rentals> result = null;
+            List<Rentals> result = new List<Rentals>();
             foreach (var rent in rentals)
             {
                 foreach (var user in users)
                 {
+                    if (username == user.Username)
+                    {
                     if (user.UserID.ToString() == rent.UserID)
                     {
-                        result = new List<Rentals>();
                         result.Add(rent);
+                    }
+
                     }
                 }
             }
@@ -201,6 +204,7 @@ namespace AutoRent.API.Controllers
             {
                 return NotFound($"Nincsenek foglalások a következő felhasználóhoz: {username}");
             }
+
 
             return Ok(result);
         }
