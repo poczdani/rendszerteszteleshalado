@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AutoRent.Migrations
 {
     [DbContext(typeof(AutoRentDbContext))]
-    [Migration("20240429203320_InitialCreates")]
-    partial class InitialCreates
+    [Migration("20240507203436_InitDb12")]
+    partial class InitDb12
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -134,7 +134,10 @@ namespace AutoRent.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Passwor")
+                    b.Property<int>("IsAdmin")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

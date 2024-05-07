@@ -8,6 +8,11 @@ using AutoRent.API.Services;
 using WepApiForAutorent.Models;
 using Microsoft.Data.SqlClient;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 
 namespace AutoRent.API.Controllers
@@ -29,6 +34,7 @@ namespace AutoRent.API.Controllers
         private readonly AuthService _authService;
         private readonly RentalService _rentalService;
         private readonly AutoRentDbContext _dbContext;
+        private bool ActualuserIsAdmin { get; set; }
 
 
         public CarController(AutoRentDbContext dbContext, AuthService authService, RentalService rentalService)
@@ -44,13 +50,41 @@ namespace AutoRent.API.Controllers
             public List<DateTime> AvailableDates { get; set; }
         }
 
+        private string GenerateJwtToken(string username, bool isAdmin)
+        {
+            var claims = new[]
+                    {
+                         new Claim(ClaimTypes.Name, username),
+                            new Claim(ClaimTypes.Role, isAdmin ? "Admin" : "User") // Admin jogosultság hozzáadása
+                 };
 
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("super_secret_key_123456789012345678901234567890"));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: "https://yourdomain.com",
+                audience: "https://yourdomain.com",
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(30),
+                signingCredentials: creds);
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+
+
+
+        [Authorize]
         [HttpPost("login")]
         public ActionResult<string> Login([FromBody] UserLoginRequest request)
         {
-            if (_authService.Authenticate(request.Username, request.Password))
+            var isAuthenticated = _authService.Authenticate(request.Username, request.Password);
+            var isAdmin = _authService.IsAdmin_(request.Username);
+            ActualuserIsAdmin = isAdmin;
+            if (isAuthenticated)
             {
-                return Ok(new { Message = "Sikeres belépés!" });
+                var token = GenerateJwtToken(request.Username, isAdmin);
+                return Ok(new { token });
             }
             else
             {
@@ -58,6 +92,8 @@ namespace AutoRent.API.Controllers
             }
         }
 
+
+        [Authorize]
         [HttpGet("{carId}/availability")]
         public ActionResult<RentalAvailability> GetRentalAvailability(int carId)
         {
@@ -109,7 +145,7 @@ namespace AutoRent.API.Controllers
 
 
 
-
+        [Authorize]
         [HttpGet("list")]
         public IActionResult ListCars()
         {
@@ -120,6 +156,7 @@ namespace AutoRent.API.Controllers
         }
 
 
+        [Authorize]
         [HttpPost("reserve")]
         public ActionResult ReserveCar([FromBody] RentalRequest rentalRequest)
         {
@@ -166,6 +203,8 @@ namespace AutoRent.API.Controllers
             return Ok(responseJson);
         }
 
+
+        [Authorize]
         [HttpGet]
         public ActionResult<PagedResult<Car>> GetCars(int pageNumber = 1, int pageSize = 10)
         {
@@ -178,24 +217,26 @@ namespace AutoRent.API.Controllers
 
 
 
-
+        [Authorize(Roles = "admin")]
         [HttpGet("rentals")]
         public ActionResult<IEnumerable<Rentals>> GetRentalsByUsername(string username)
         {
             var users = _dbContext.Users.ToList();
             var rentals = _dbContext.Rentals.ToList();
-            List<Rentals> result = new List<Rentals>();
+            List<Rentals> result = null;
+
             foreach (var rent in rentals)
             {
                 foreach (var user in users)
                 {
-                    if (username == user.Username)
-                    {
                     if (user.UserID.ToString() == rent.UserID)
                     {
+                        if (!ActualuserIsAdmin)
+                        {
+                            Forbid();
+                        }
+                        result = new List<Rentals>();
                         result.Add(rent);
-                    }
-
                     }
                 }
             }
@@ -204,7 +245,6 @@ namespace AutoRent.API.Controllers
             {
                 return NotFound($"Nincsenek foglalások a következő felhasználóhoz: {username}");
             }
-
 
             return Ok(result);
         }

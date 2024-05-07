@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj": {}
+    "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj": {}
   },
   "projects": {
-    "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj": {
+    "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj",
+        "projectUniqueName": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj",
         "projectName": "AutoRent",
-        "projectPath": "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj",
+        "projectPath": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRent.csproj",
         "packagesPath": "C:\\Users\\z0048nhu\\.nuget\\packages\\",
-        "outputPath": "C:\\suli\\aktulais giten\\rendszerteszteleshalado\\WepApiForAutorent\\obj\\",
+        "outputPath": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\z0048nhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.1.35, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
