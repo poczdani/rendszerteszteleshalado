@@ -1,0 +1,5 @@
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\Teszt_rendszerf\AutoRentProba\FoodOrder.Data\obj\Debug\net8.0\CarRent.Data.csproj.AssemblyReference.cache
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\Teszt_rendszerf\AutoRentProba\FoodOrder.Data\obj\Debug\net8.0\CarRent.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\Teszt_rendszerf\AutoRentProba\FoodOrder.Data\obj\Debug\net8.0\CarRent.Data.AssemblyInfoInputs.cache
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\Teszt_rendszerf\AutoRentProba\FoodOrder.Data\obj\Debug\net8.0\CarRent.Data.AssemblyInfo.cs
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\Teszt_rendszerf\AutoRentProba\FoodOrder.Data\obj\Debug\net8.0\CarRent.Data.csproj.CoreCompileInputs.cache

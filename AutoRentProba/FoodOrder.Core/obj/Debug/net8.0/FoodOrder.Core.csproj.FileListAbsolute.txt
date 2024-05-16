@@ -1,0 +1,15 @@
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\bin\Debug\net8.0\FoodOrder.Core.deps.json
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\bin\Debug\net8.0\FoodOrder.Core.dll
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\bin\Debug\net8.0\FoodOrder.Core.pdb
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\bin\Debug\net8.0\FoodOrder.Data.dll
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\bin\Debug\net8.0\FoodOrder.Data.pdb
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\obj\Debug\net8.0\FoodOrder.Core.csproj.AssemblyReference.cache
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\obj\Debug\net8.0\FoodOrder.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\obj\Debug\net8.0\FoodOrder.Core.AssemblyInfoInputs.cache
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\obj\Debug\net8.0\FoodOrder.Core.AssemblyInfo.cs
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\obj\Debug\net8.0\FoodOrder.Core.csproj.CoreCompileInputs.cache
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\obj\Debug\net8.0\FoodOrde.7D778B6F.Up2Date
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\obj\Debug\net8.0\FoodOrder.Core.dll
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\obj\Debug\net8.0\refint\FoodOrder.Core.dll
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\obj\Debug\net8.0\FoodOrder.Core.pdb
+C:\Users\Felhasználó\Desktop\Rendszerfejlesztes\FoodOrder-main\FoodOrder.Core\obj\Debug\net8.0\ref\FoodOrder.Core.dll

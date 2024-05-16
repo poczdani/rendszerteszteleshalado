@@ -1,0 +1,632 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\migrations\\20240309151900_cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\migrations\\20240309151900_cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\carrent.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\carrent.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7408F3BC-23DB-476C-A19A-D8B33DA87B4D}|WepApiForAutorent\\AutoRent.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\wepapiforautorent\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7408F3BC-23DB-476C-A19A-D8B33DA87B4D}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7408F3BC-23DB-476C-A19A-D8B33DA87B4D}|WepApiForAutorent\\AutoRent.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\wepapiforautorent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7408F3BC-23DB-476C-A19A-D8B33DA87B4D}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7408F3BC-23DB-476C-A19A-D8B33DA87B4D}|WepApiForAutorent\\AutoRent.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\wepapiforautorent\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7408F3BC-23DB-476C-A19A-D8B33DA87B4D}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7408F3BC-23DB-476C-A19A-D8B33DA87B4D}|WepApiForAutorent\\AutoRent.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\wepapiforautorent\\autorent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7408F3BC-23DB-476C-A19A-D8B33DA87B4D}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\autorent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\websocket\\websocketmanagermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\websocket\\websocketmanagermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\websocket\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\websocket\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\websocket\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\websocket\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\websocket\\handlers\\foodhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\websocket\\handlers\\foodhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\websocket\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\websocket\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\services\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\services\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\rentcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\rentcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\entities\\rentalstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\entities\\rentalstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\carrentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\carrentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\migrations\\carrentdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\migrations\\carrentdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\entities\\carcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\entities\\carcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\migrations\\20240403063959_add_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\migrations\\20240403063959_add_roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\migrations\\20240317203637_rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\migrations\\20240317203637_rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\migrations\\20240308163609_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\migrations\\20240308163609_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\FoodOrder.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\constans\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\FoodOrder.Core.csproj|solutionrelative:foodorder.core\\constans\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\FoodOrder.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\models\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\FoodOrder.Core.csproj|solutionrelative:foodorder.core\\models\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\FoodOrder.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\FoodOrder.Core.csproj|solutionrelative:foodorder.core\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\FoodOrder.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\models\\cars\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\FoodOrder.Core.csproj|solutionrelative:foodorder.core\\models\\cars\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\profiles\\usermapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\profiles\\usermapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\profiles\\foodmapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\profiles\\foodmapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\services\\init\\carinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\services\\init\\carinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.core\\services\\init\\roleinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64885A0-CD5E-471C-964C-AC6147584A50}|FoodOrder.Core\\CarRent.Core.csproj|solutionrelative:foodorder.core\\services\\init\\roleinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\carrent.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\carrent.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|c:\\users\\felhaszn\u00E1l\u00F3\\desktop\\rendszerfejlesztes\\teszt_rendszerf\\autorentproba\\foodorder.data\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD116318-7E76-4ADF-A146-CD83BA5F5BD9}|FoodOrder.Data\\CarRent.Data.csproj|solutionrelative:foodorder.data\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\WepApiForAutorent\\Startup.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Startup.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\WepApiForAutorent\\Startup.cs",
+              "RelativeToolTip": "WepApiForAutorent\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T13:19:36.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebSocketManagerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\WebSocket\\WebSocketManagerMiddleware.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\WebSocket\\WebSocketManagerMiddleware.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\WebSocket\\WebSocketManagerMiddleware.cs",
+              "RelativeToolTip": "FoodOrder.Core\\WebSocket\\WebSocketManagerMiddleware.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwB4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T13:01:48.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FoodHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\WebSocket\\Handlers\\FoodHandler.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\WebSocket\\Handlers\\FoodHandler.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\WebSocket\\Handlers\\FoodHandler.cs",
+              "RelativeToolTip": "FoodOrder.Core\\WebSocket\\Handlers\\FoodHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:56:46.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebSocketHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\WebSocket\\WebSocketHandler.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\WebSocket\\WebSocketHandler.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\WebSocket\\WebSocketHandler.cs",
+              "RelativeToolTip": "FoodOrder.Core\\WebSocket\\WebSocketHandler.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA/wB8AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:56:18.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\WebSocket\\Extensions.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\WebSocket\\Extensions.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\WebSocket\\Extensions.cs",
+              "RelativeToolTip": "FoodOrder.Core\\WebSocket\\Extensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:56:16.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\WebSocket\\ConnectionManager.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\WebSocket\\ConnectionManager.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\WebSocket\\ConnectionManager.cs",
+              "RelativeToolTip": "FoodOrder.Core\\WebSocket\\ConnectionManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwA4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:56:15.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FoodService.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Services\\FoodService.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Services\\FoodService.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Services\\FoodService.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Services\\FoodService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:55:56.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RentCar.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\RentCar.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\RentCar.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\RentCar.cs",
+              "RelativeToolTip": "FoodOrder.Data\\RentCar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:52:42.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240317203637_Rent.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Migrations\\20240317203637_Rent.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Migrations\\20240317203637_Rent.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Migrations\\20240317203637_Rent.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Migrations\\20240317203637_Rent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:22:05.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarRent.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\CarRent.Core.csproj",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\CarRent.Core.csproj",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\CarRent.Core.csproj",
+              "RelativeToolTip": "FoodOrder.Core\\CarRent.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-20T12:26:01.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240309151900_Cars.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Migrations\\20240309151900_Cars.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Migrations\\20240309151900_Cars.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Migrations\\20240309151900_Cars.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Migrations\\20240309151900_Cars.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:21:50.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoRent",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\WepApiForAutorent\\AutoRent.csproj",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\AutoRent.csproj",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\WepApiForAutorent\\AutoRent.csproj",
+              "RelativeToolTip": "WepApiForAutorent\\AutoRent.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-20T13:19:18.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\WepApiForAutorent\\AuthService.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\WepApiForAutorent\\AuthService.cs",
+              "RelativeToolTip": "WepApiForAutorent\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T13:19:34.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\WepApiForAutorent\\Program.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Program.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\WepApiForAutorent\\Program.cs",
+              "RelativeToolTip": "WepApiForAutorent\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T13:19:35.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CarCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\CarCategory.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Entities\\CarCategory.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\CarCategory.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Entities\\CarCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:22:17.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Services\\AuthService.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:36:06.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Services\\CartService.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Services\\CartService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wIkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:39:13.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CarRentDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Migrations\\CarRentDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Migrations\\CarRentDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Migrations\\CarRentDbContextModelSnapshot.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Migrations\\CarRentDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:21:51.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CarRentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\CarRentDbContext.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\CarRentDbContext.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\CarRentDbContext.cs",
+              "RelativeToolTip": "FoodOrder.Data\\CarRentDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:21:54.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240403063959_Add_Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Migrations\\20240403063959_Add_Roles.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Migrations\\20240403063959_Add_Roles.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Migrations\\20240403063959_Add_Roles.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Migrations\\20240403063959_Add_Roles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:22:04.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\Car.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Entities\\Car.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\Car.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Entities\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:22:08.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\Rental.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Entities\\Rental.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\Rental.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Entities\\Rental.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:22:18.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RentalStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\RentalStatus.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Entities\\RentalStatus.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\RentalStatus.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Entities\\RentalStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:47:31.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240308163609_User.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Migrations\\20240308163609_User.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Migrations\\20240308163609_User.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Migrations\\20240308163609_User.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Migrations\\20240308163609_User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:21:49.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\Role.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:21:34.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Constans\\Roles.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Constans\\Roles.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Constans\\Roles.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Constans\\Roles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:23:22.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Models\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Models\\User\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Models\\User\\UserDto.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Models\\User\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:25:14.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Models\\PagedResult.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Models\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Models\\PagedResult.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Models\\PagedResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:27:25.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CarDto.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Models\\Cars\\CarDto.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Models\\Cars\\CarDto.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Models\\Cars\\CarDto.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Models\\Cars\\CarDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:24:04.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserMapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Profiles\\UserMapperConfig.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Profiles\\UserMapperConfig.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Profiles\\UserMapperConfig.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Profiles\\UserMapperConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:28:48.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FoodMapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Profiles\\FoodMapperConfig.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Profiles\\FoodMapperConfig.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Profiles\\FoodMapperConfig.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Profiles\\FoodMapperConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:28:12.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CarInit.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Services\\Init\\CarInit.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Services\\Init\\CarInit.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Services\\Init\\CarInit.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Services\\Init\\CarInit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:29:55.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RoleInit.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Services\\Init\\RoleInit.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Core\\Services\\Init\\RoleInit.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Core\\Services\\Init\\RoleInit.cs",
+              "RelativeToolTip": "FoodOrder.Core\\Services\\Init\\RoleInit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T12:33:11.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CarRent.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\CarRent.Data.csproj",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\CarRent.Data.csproj",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\CarRent.Data.csproj",
+              "RelativeToolTip": "FoodOrder.Data\\CarRent.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-20T10:38:10.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Entities\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\UserRole.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Entities\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:21:24.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "FoodOrder.Data\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Felhaszn\u00E1l\u00F3\\Desktop\\Rendszerfejlesztes\\Teszt_rendszerf\\AutoRentProba\\FoodOrder.Data\\Entities\\User.cs",
+              "RelativeToolTip": "FoodOrder.Data\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:21:33.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
