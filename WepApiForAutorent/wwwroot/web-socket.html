@@ -18,6 +18,26 @@
             margin-bottom: 20px;
         }
 
+        .menu {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .menu select, .menu button {
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                margin: 0 10px;
+            }
+
+                .menu select:hover, .menu button:hover {
+                    background-color: #0056b3;
+                }
+
         form {
             max-width: 400px;
             margin: 0 auto;
@@ -34,15 +54,18 @@
         }
 
         input[type="text"],
-        input[type="password"] {
-            width: 100%;
+        input[type="password"],
+        input[type="number"],
+        input[type="date"] {
+            width: calc(100% - 20px);
             padding: 10px;
             margin-bottom: 20px;
             border: 1px solid #ccc;
             border-radius: 3px;
         }
 
-        button {
+        button[type="submit"],
+        button[type="button"] {
             background-color: #007bff;
             color: #fff;
             border: none;
@@ -50,9 +73,13 @@
             border-radius: 3px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            width: calc(100% - 20px);
+            margin: 0 auto;
+            display: block;
         }
 
-            button:hover {
+            button[type="submit"]:hover,
+            button[type="button"]:hover {
                 background-color: #0056b3;
             }
 
@@ -61,74 +88,147 @@
             border: none;
             border-top: 1px solid #ccc;
         }
+
+        .content {
+            display: none;
+        }
+
+            .content.active {
+                display: block;
+            }
     </style>
 </head>
 <body>
     <h1>AutoRent - Kliensoldal</h1>
 
-    <h2>Bejelentkezés</h2>
-    <form id="loginForm">
+    <div class="menu">
+        <select onchange="navigate(this.value)">
+            <option value="loginForm">Bejelentkezés</option>
+            <option value="carList">Autók listázása</option>
+            <option value="offer-container">Akciós ajánlat</option>
+            <option value="userRentals">Foglalások lekérése</option>
+            <option value="carAvailability">Autó elérhetőségének ellenőrzése</option>
+            <option value="carReservation">Autó foglalása</option>
+        </select>
+    </div>
+
+    <!-- Bejelentkezés űrlap (alapértelmezett megjelenítés) -->
+    <form id="loginForm" class="content">
+        <h2>Bejelentkezés</h2>
         <label for="username">Felhasználónév:</label>
         <input type="text" id="username" name="username" required><br><br>
         <label for="password">Jelszó:</label>
         <input type="password" id="password" name="password" required><br><br>
         <button type="button" onclick="login()">Bejelentkezés</button>
     </form>
-    <hr>
 
-    <h2>Autók listázása</h2>
-    <button type="button" onclick="listCars()">Autók listázása</button>
-    <div id="carList"></div>
+    <!-- További tartalmak (elrejtve alapértelmezés szerint) -->
+    <div id="carList" class="content">
+        <h2>Autók listázása</h2>
+        <button onclick="listCars()">Listázás</button>
+        <!-- Autók listája -->
+    </div>
 
-    <hr>
-
-    <h2>Akciós ajánlat</h2>
-    <div id="offer-container">
+    <div id="offer-container" class="content">
+        <h2>Akciós ajánlat</h2>
         <!-- Akciós ajánlatok megjelenítése -->
     </div>
 
+    <div id="userRentals" class="content">
+        <h2>Felhasználó foglalásainak lekérése</h2>
+        <label for="usernameInput">Felhasználónév:</label>
+        <input type="text" id="usernameInput" name="username" required><br><br>
+        <button type="button" onclick="getRentalsByUsername(document.getElementById('usernameInput').value)">Foglalások lekérése</button>
+    </div>
 
+    <div id="carAvailability" class="content">
+        <h2>Autó elérhetőségének ellenőrzése</h2>
+        <label for="carId">Autó azonosító:</label>
+        <input type="number" id="carId" name="carId" required><br><br>
+        <label for="startDate">Kezdő dátum:</label>
+        <input type="date" id="startDate" name="startDate" required><br><br>
+        <label for="endDate">Vég dátum:</label>
+        <input type="date" id="endDate" name="endDate" required><br><br>
+        <button type="button" onclick="checkCarAvailability()">Ellenőrzés</button>
+    </div>
 
-
-
-
-    <!-- Felhasználó foglalásainak lekérése -->
-    <h2>Felhasználó foglalásainak lekérése</h2>
-    <label for="username">Felhasználónév:</label>
-    <input type="text" id="usernameInput" name="username" required><br><br>
-    <button type="button" onclick="getRentalsByUsername(document.getElementById('usernameInput').value)">Foglalások lekérése</button>
-    <div id="userRentals"></div>
-
-
-
-    <!-- Autó elérhetőségének ellenőrzése -->
-    <h2>Autó elérhetőségének ellenőrzése</h2>
-    <label for="carId">Autó azonosító:</label>
-    <input type="number" id="carId" name="carId" required><br><br>
-    <label for="startDate">Kezdő dátum:</label>
-    <input type="date" id="startDate" name="startDate" required><br><br>
-    <label for="endDate">Vég dátum:</label>
-    <input type="date" id="endDate" name="endDate" required><br><br>
-    <button type="button" onclick="checkCarAvailability()">Ellenőrzés</button>
-    <div id="carAvailability"></div>
-
-    <!-- Autó foglalás -->
-    <h2>Autó foglalása</h2>
-    <label for="resCarId">Autó azonosító:</label>
-    <input type="number" id="resCarId" name="resCarId" required><br><br>
-    <label for="resStartDate">Kezdő dátum:</label>
-    <input type="date" id="resStartDate" name="resStartDate" required><br><br>
-    <label for="resEndDate">Vég dátum:</label>
-    <input type="date" id="resEndDate" name="resEndDate" required><br><br>
-    <label for="ResUserId">Felhasználó azonosító:</label>
-    <input type="text" id="ResUserId" name="ResUserId" required><br><br>
-    <label for="rentalId">Rental azonosító:</label>
-    <input type="text" id="rentalId" name="rentalId" required><br><br> <!-- Új mező a Rental azonosítóhoz -->
-    <button type="button" onclick="reserveCar()">Autó foglalása</button>
-    <div id="reservationResult"></div>
-
-
+    <div id="carReservation" class="content">
+        <h2>Autó foglalása</h2>
+        <label for="resCarId">Autó azonosító:</label>
+        <input type="number" id="resCarId" name="resCarId" required><br><br>
+        <label for="resStartDate">Kezdő dátum:</label>
+        <input type="date" id="resStartDate" name="resStartDate" required><br><br>
+        <label for="resEndDate">Vég dátum:</label>
+        <input type="date" id="resEndDate" name="resEndDate" required><br><br>
+        <label for="ResUserId">Felhasználó azonosító:</label>
+        <input type="text" id="ResUserId" name="ResUserId" required><br><br>
+        <label for="rentalId">Rental azonosító:</label>
+        <input type="text" id="rentalId" name="rentalId" required><br><br> <!-- Új mező a Rental azonosítóhoz -->
+        <button type="button" onclick="reserveCar()">Autó foglalása</button>
+        <div id="reservationResult"></div>
+    </div>
 
     <script src="web-socket.js"></script>
+    <script>
+        // Az oldal betöltésekor azonnal megjeleníti a bejelentkezési űrlapot
+        window.onload = function () {
+            showLoginForm();
+        };
+
+        // Funkciók a menüpontokhoz
+        function navigate(target) {
+            hideAll();
+            document.getElementById(target).classList.add("active");
+        }
+
+        function showLoginForm() {
+            navigate("loginForm");
+        }
+
+        function listCars() {
+            // Az autók listázását itt lehetne megvalósítani
+            alert("Autók listázása...");
+        }
+
+        function showOffer() {
+            navigate("offer-container");
+        }
+
+        function showUserRentals() {
+            navigate("userRentals");
+        }
+
+        function showCarAvailability() {
+            navigate("carAvailability");
+        }
+
+        function showCarReservation() {
+            navigate("carReservation");
+        }
+
+        function hideAll() {
+            var elements = document.querySelectorAll(".content");
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].classList.remove("active");
+            }
+        }
+
+        // További funkciók
+        function login() {
+            // Bejelentkezési folyamat
+        }
+
+        function getRentalsByUsername(username) {
+            // Felhasználó foglalásainak lekérése
+        }
+
+        function checkCarAvailability() {
+            // Autó elérhetőségének ellenőrzése
+        }
+
+        function reserveCar() {
+            // Autó foglalása
+        }
+    </script>
 </body>
 </html>
