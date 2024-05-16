@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\webapi\\rendszerteszteleshalado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|c:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\wwwroot\\web-socket.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\wwwroot\\web-socket.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\models\\rentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\models\\rentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\wwwroot\\web-socket.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\wwwroot\\web-socket.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\autorentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\autorentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\models\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\models\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|C:\\webapi\\rendszerteszteleshalado\\wepapiforautorent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D29F12D8-01CB-4797-830A-F531BE5966E6}|WepApiForAutorent\\AutoRent.csproj|solutionrelative:wepapiforautorent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 131,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Sales.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Models\\Sales.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Models\\Sales.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Models\\Sales.cs",
+              "RelativeToolTip": "WepApiForAutorent\\Models\\Sales.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:19:43.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rentals.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Models\\Rentals.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Models\\Rentals.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Models\\Rentals.cs",
+              "RelativeToolTip": "WepApiForAutorent\\Models\\Rentals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T21:03:28.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Controllers\\CarController.cs",
+              "RelativeToolTip": "WepApiForAutorent\\Controllers\\CarController.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAAwJIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T06:22:01.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "web-socket.html",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\web-socket.html",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\wwwroot\\web-socket.html",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\web-socket.html",
+              "RelativeToolTip": "WepApiForAutorent\\wwwroot\\web-socket.html",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAkwFsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-30T19:32:56.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "web-socket.js",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\web-socket.js",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\wwwroot\\web-socket.js",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\web-socket.js",
+              "RelativeToolTip": "WepApiForAutorent\\wwwroot\\web-socket.js",
+              "ViewState": "AQIAAIcBAAAAAAAAAAAAAJIBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-30T19:28:28.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Properties\\serviceDependencies.json",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "WepApiForAutorent\\Properties\\serviceDependencies.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-29T19:44:51.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Models\\Car.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Models\\Car.cs",
+              "RelativeToolTip": "WepApiForAutorent\\Models\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T18:46:00.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\appsettings.json",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\appsettings.json",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\appsettings.json",
+              "RelativeToolTip": "WepApiForAutorent\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-26T12:27:10.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AutoRentDbContext.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRentDbContext.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\AutoRentDbContext.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\AutoRentDbContext.cs",
+              "RelativeToolTip": "WepApiForAutorent\\AutoRentDbContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T11:53:25.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RentalService.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\RentalService.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\RentalService.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\RentalService.cs",
+              "RelativeToolTip": "WepApiForAutorent\\RentalService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:33:46.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\AuthService.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\AuthService.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\AuthService.cs",
+              "RelativeToolTip": "WepApiForAutorent\\AuthService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAADwvyYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:40:59.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Startup.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Startup.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Startup.cs*",
+              "RelativeToolTip": "WepApiForAutorent\\Startup.cs*",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwCYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:33:20.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Models\\User.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Models\\User.cs",
+              "RelativeToolTip": "WepApiForAutorent\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:26:41.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Models\\PagedResult.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Models\\PagedResult.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Models\\PagedResult.cs",
+              "RelativeToolTip": "WepApiForAutorent\\Models\\PagedResult.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:26:31.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Program.cs",
+              "RelativeDocumentMoniker": "WepApiForAutorent\\Program.cs",
+              "ToolTip": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\Program.cs",
+              "RelativeToolTip": "WepApiForAutorent\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T19:16:54.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

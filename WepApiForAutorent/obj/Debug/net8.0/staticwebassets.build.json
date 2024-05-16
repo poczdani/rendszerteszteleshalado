@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "zbeKZ9trTF3c1fOSr7ncotmGC33KSmogIBj/sp+3/P0=",
+  "Source": "AutoRent",
+  "BasePath": "_content/AutoRent",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AutoRent\\wwwroot",
+      "Source": "AutoRent",
+      "ContentRoot": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\",
+      "BasePath": "_content/AutoRent",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\web-socket.html",
+      "SourceId": "AutoRent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\",
+      "BasePath": "_content/AutoRent",
+      "RelativePath": "web-socket.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web-socket.html"
+    },
+    {
+      "Identity": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\web-socket.js",
+      "SourceId": "AutoRent",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\webapi\\rendszerteszteleshalado\\WepApiForAutorent\\wwwroot\\",
+      "BasePath": "_content/AutoRent",
+      "RelativePath": "web-socket.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web-socket.js"
+    }
+  ]
+}
